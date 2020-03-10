@@ -1,0 +1,126 @@
+header {
+	font-family: serif;
+	font-size: 48px;
+	font-style: bold;
+	color: white;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+header li {
+	padding: 20px;
+}
+
+header li.logo {
+
+}
+.image-top {
+	background-image: url(top-img.png);
+	background-size: cover;
+	padding: 300px 0;
+	text-align: center;
+}
+div {
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+	font-family: serif;
+	text-align: center;
+	color: white;
+}
+
+.music {
+	display: flex;
+}
+
+.albums {
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.albums h2 {
+	width: 100%;
+}
+.albums div {
+	width: 50%;
+}
+.top-songs {
+	width: 25%;
+}
+h2 {
+	text-align: center;
+	color: white;
+}
+p.image-top {
+	font-size: 35px;
+}
+
+body {
+	background-color: black;
+}
+p {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+}
+input[type=text] {
+	background-color: black;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: none;
+    height: 40px;
+    padding: 0 25px;
+    font-size: 16px;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+}
+input[type=button] {
+	height: 42px;
+    margin-left: -5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    padding: 0 25px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    font-family: 'Ibarra Real Nova', serif;
+}
+input[value=Subscribe] {
+	text-decoration: underline;
+}
+ul.social {
+	display: flex;
+	justify-content: center;
+	color: white;
+	list-style-type: none;
+}
+ul.social li {
+	margin: 0 10px;
+}
+ul.social img {
+	width: 15px;
+	height: 15px;
+}
+/*font-family: 'Ibarra Real Nova', serif;
+font-family: 'Merriweather', serif;*/
